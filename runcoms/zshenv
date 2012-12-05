@@ -17,8 +17,8 @@ fi
 # Editors
 #
 
-export EDITOR='nano'
-export VISUAL='nano'
+export EDITOR='/Applications/MacVim.app/Contents/MacOS/Vim'
+export VISUAL='/Applications/MacVim.app/Contents/MacOS/Vim'
 export PAGER='less'
 
 #
@@ -78,6 +78,7 @@ unset path_file
 path=(
   /usr/local/{bin,sbin}
   /usr/{bin,sbin}
+  /usr/local/share/python
   /{bin,sbin}
   $path
 )
@@ -86,6 +87,9 @@ for path_file in /etc/paths.d/*(.N); do
   path+=($(<$path_file))
 done
 unset path_file
+
+# PostgreSQL
+export PGDATA=/Library/PostgreSQL/8.4/data
 
 #
 # Temporary Files
