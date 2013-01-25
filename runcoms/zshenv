@@ -80,6 +80,7 @@ path=(
   /Users/jonduell/bin
   /usr/local/{bin,sbin}
   /usr/{bin,sbin}
+  /usr/local/share/npm/bin
   /usr/local/share/python
   /{bin,sbin}
   $path
