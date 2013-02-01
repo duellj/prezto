@@ -21,3 +21,6 @@ alias solr-start='solr /usr/local/etc/solr/drupal/solr'
 
 # Tmux
 alias tmux="TERM=screen-256color-bce tmux"
+
+# Mysql
+alias my="mysql -u root -pmeh"
