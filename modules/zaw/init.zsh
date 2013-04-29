@@ -10,6 +10,7 @@ source "${0:h}/external/zaw.zsh"
 
 # Add custom shortcuts.
 bindkey '^R' zaw-history
+bindkey '^B' zaw-git-branches
 
 # Setup custom syntax highlighting.
 zstyle ':filter-select:highlight' matched fg=yellow,standout
