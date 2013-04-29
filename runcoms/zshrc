@@ -27,3 +27,6 @@ alias my="mysql -u root -pmeh"
 
 # List all git aliases
 alias git_aliases="alias | ag --nocolor '^g.*git'"
+
+# Drush
+alias dr='drush'

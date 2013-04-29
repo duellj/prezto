@@ -110,7 +110,7 @@ zstyle ':prezto:module:ssh-agent' identities 'id_rsa'
 #
 
 # Set syntax highlighters.
-# By default main, brackets, and cursor are enabled.
+# By default, only the main highlighter is enabled.
 zstyle ':prezto:module:syntax-highlighting' color 'yes'
 # zstyle ':prezto:module:syntax-highlighting' highlighters \
 #   'main' \
@@ -118,18 +118,3 @@ zstyle ':prezto:module:syntax-highlighting' color 'yes'
 #   'pattern' \
 #   'cursor' \
 #   'root'
-
-#
-# Terminal
-#
-
-# Auto set the tab and window titles.
-zstyle ':prezto:module:terminal' auto-title 'yes'
-
-#
-# Tmux
-#
-
-# Auto start a session when Zsh is launched.
-# zstyle ':prezto:module:tmux' auto-start 'yes'
-
