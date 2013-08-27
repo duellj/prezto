@@ -32,3 +32,6 @@ alias git_aliases="alias | ag --nocolor '^g.*git'"
 alias dr='drush'
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Syntax highlight for history substring search.
+HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='fg=yellow,standout'
