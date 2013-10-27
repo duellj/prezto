@@ -82,3 +82,5 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+# AWS Setup
+export AWS_CONFIG_FILE=~/.awsconf
