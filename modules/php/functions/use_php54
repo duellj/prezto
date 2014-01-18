@@ -1,0 +1,6 @@
+brew unlink php53
+brew unlink php55
+brew link php54
+launchctl unload -w -F ~/Library/LaunchAgents/homebrew-php.josegonzalez.php53.plist 2> /dev/null
+launchctl unload -w -F ~/Library/LaunchAgents/homebrew-php.josegonzalez.php55.plist 2> /dev/null
+launchctl load -w -F ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist 2> /dev/null
