@@ -17,13 +17,13 @@ alias vi='vim'
 alias vimdiff='vim -d'
 
 # solr
-alias solr-start='solr /usr/local/etc/solr/drupal/solr'
+alias solr-start='solr /usr/local/etc/solr/solr'
 
 # Tmux
 alias tmux="TERM=screen-256color-bce tmux"
 
 # Mysql
-alias my="mysql -u root -pmeh"
+alias my="mysql --login-path=client"
 
 # List all git aliases
 alias git_aliases="alias | ag --nocolor '^g.*git'"
