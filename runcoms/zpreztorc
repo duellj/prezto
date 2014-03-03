@@ -38,6 +38,8 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'fasd' \
   'php' \
+  'drush' \
+  'ruby' \
   'zaw' \
   'syntax-highlighting' \
   'ssh' \

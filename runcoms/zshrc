@@ -27,8 +27,3 @@ alias my="mysql --login-path=client"
 
 # List all git aliases
 alias git_aliases="alias | ag --nocolor '^g.*git'"
-
-# Drush
-alias dr='drush'
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
