@@ -27,3 +27,6 @@ alias my="mysql --login-path=client"
 
 # List all git aliases
 alias git_aliases="alias | ag --nocolor '^g.*git'"
+
+PERL_MB_OPT="--install_base \"/Users/jonduell/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/jonduell/perl5"; export PERL_MM_OPT;
