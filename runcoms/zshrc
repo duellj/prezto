@@ -16,9 +16,6 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias vi='vim'
 alias vimdiff='vim -d'
 
-# solr
-alias solr-start='solr /usr/local/etc/solr/solr'
-
 # Tmux
 alias tmux="TERM=screen-256color-bce tmux"
 

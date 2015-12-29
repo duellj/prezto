@@ -1,0 +1,7 @@
+brew unlink php54
+brew unlink php55
+brew link php56
+brew services stop php54
+brew services stop php55
+brew services start php56
+brew services restart httpd24
