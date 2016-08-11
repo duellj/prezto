@@ -15,6 +15,7 @@ fi
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias vi='vim'
 alias vimdiff='vim -d'
+alias dr='drush'
 
 # Tmux
 alias tmux="TERM=screen-256color-bce tmux"
@@ -22,8 +23,15 @@ alias tmux="TERM=screen-256color-bce tmux"
 # Mysql
 alias my="mysql --login-path=client"
 
+TF_ALIAS=f alias f='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+
 # List all git aliases
 alias git_aliases="alias | ag --nocolor '^g.*git'"
 
 PERL_MB_OPT="--install_base \"/Users/jonduell/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/Users/jonduell/perl5"; export PERL_MM_OPT;
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# Drupal console
+source "$HOME/.console/console.rc" 2>/dev/null
